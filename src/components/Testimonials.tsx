@@ -7,37 +7,37 @@ export default function Testimonials() {
   const reviews: ReviewItem[] = [
     {
       id: "rev-1",
-      name: "Sarmad Ali",
+      name: "Ayesha Ghafoor",
       rating: 5,
-      text: "The absolute best luxury beauty salon in Rawalpindi. The Bridal Package was spectacular—from the Janssen facial to the precision hair cut. My stylist was exceptionally professional.",
-      service: "Bridal Package",
+      text: "The absolute best beauty salon in Gujranwala. The Royal Bridal Makeup was spectacular—from the flawless HD base to the custom jewelry settings. My makeup artist was exceptionally professional.",
+      service: "Royal Bridal Makeup",
       date: "June 2026",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80"
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80"
     },
     {
       id: "rev-2",
-      name: "Zara Khan",
+      name: "Zara Ahmed",
       rating: 5,
-      text: "I booked their Thalgo Marine Facial and hair styling for my wedding event. My skin has never looked so luminous and photogenic. Truly a $10,000 international standard salon experience!",
-      service: "Thalgo Facial & Hair Styling",
+      text: "I booked their Clinical Facial and creative hair styling for my brother's wedding. My skin has never looked so luminous and photogenic. Truly an international standard salon experience!",
+      service: "Clinical Facial & Hair Styling",
       date: "July 2026",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80"
     },
     {
       id: "rev-3",
-      name: "Hamza Malik",
+      name: "Sadia Malik",
       rating: 5,
-      text: "Highly recommend the Royal Sandalwood Shave and beard trim. It feels incredibly relaxing with hot/cold towels and amazing argan oil conditioning. Outstanding hygiene standards.",
-      service: "Master Artisan Beard Trim & Shave",
+      text: "I completed the 3-month Professional Bridal Makeup Course at Rubab Academy. The instructors were amazing, giving us hands-on practice with real models. I was certified last month and already have clients!",
+      service: "Professional Bridal Makeup Course",
       date: "May 2026",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80"
+      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80"
     },
     {
       id: "rev-4",
       name: "Mariam Shah",
       rating: 5,
-      text: "I got the Royal Whitening Pedicure and a custom hair coloring. Absolutely fell in love with their chic gold-and-black theme and the complimentary organic beverages. 10 out of 10!",
-      service: "Royal Whitening Pedicure",
+      text: "I got the Whitening Pedicure and a custom hair coloring balayage. Absolutely fell in love with their chic modern theme and the complimentary warm beverages. 10 out of 10!",
+      service: "Pedicure & Hair Color",
       date: "April 2026",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80"
     }

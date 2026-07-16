@@ -18,42 +18,42 @@ export default function Gallery() {
     {
       id: "gal-1",
       category: "interior",
-      title: "Presidential Styling Suite",
+      title: "Royal Bridal & Training Lounge",
       image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-2 md:row-span-2"
     },
     {
       id: "gal-2",
       category: "hair",
-      title: "Dimensional Blonde Balayage",
+      title: "Premium Hair Coloring & Balayage",
       image: "https://images.unsplash.com/photo-1605497746444-ac9dbd39f4a5?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-1 md:row-span-1"
     },
     {
       id: "gal-3",
       category: "skin",
-      title: "Deep Sea Hydra Facial Active",
+      title: "Clinical Janssen Brightening Facial",
       image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-1 md:row-span-2"
     },
     {
       id: "gal-4",
       category: "grooming",
-      title: "Precision Hot Towel Shaving",
+      title: "Royal HD Bridal Makeup",
       image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-1 md:row-span-1"
     },
     {
       id: "gal-5",
       category: "interior",
-      title: "VIP Lounge Area & Reception",
+      title: "Rubab Gujranwala Reception & Academy",
       image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-1 md:row-span-1"
     },
     {
       id: "gal-6",
       category: "hair",
-      title: "Couture Hair-Do & Event Styling",
+      title: "Professional Hair Styling Masterclass",
       image: "https://images.unsplash.com/photo-1595475243688-aa924f7943f7?auto=format&fit=crop&w=800&q=80",
       spanClass: "md:col-span-2 md:row-span-1"
     }
@@ -66,9 +66,9 @@ export default function Gallery() {
   const tabs = [
     { id: "all", name: "Show All" },
     { id: "interior", name: "Salon Interior" },
-    { id: "hair", name: "Hair Couture" },
+    { id: "hair", name: "Hair Artistry" },
     { id: "skin", name: "Dermal Skincare" },
-    { id: "grooming", name: "Elite Grooming" }
+    { id: "grooming", name: "Bridal & Party Makeup" }
   ];
 
   const handleNext = (e: React.MouseEvent) => {
@@ -98,7 +98,7 @@ export default function Gallery() {
             Visual Portfolios
           </span>
           <h2 className="text-3xl sm:text-5xl font-sans font-light tracking-tight text-white mb-4">
-            The Jaynaan <span className="font-serif italic text-gold">Gallery</span>
+            The Rubab <span className="font-serif italic text-gold">Gallery</span>
           </h2>
           <div className="w-20 h-[1px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto my-4" />
           <p className="text-xs sm:text-sm text-zinc-400 font-sans tracking-wide leading-relaxed font-light">

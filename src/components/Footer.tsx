@@ -36,16 +36,16 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
               </div>
               <div>
                 <span className="font-sans text-xl font-bold tracking-[0.2em] text-white uppercase block">
-                  Jaynaan
+                  Rubab
                 </span>
                 <span className="block text-[8px] tracking-[0.4em] text-gold/80 font-mono uppercase">
-                  Rawalpindi
+                  Gujranwala
                 </span>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-zinc-400 font-sans tracking-wide leading-relaxed font-light max-w-sm">
-              &ldquo;Be The Best Version Of Yourself&rdquo;. Jaynaan Beauty Salon provides premium beauty, hair, makeup and grooming services with expert care and modern techniques in Rawalpindi.
+              &ldquo;Be The Best Version Of Yourself&rdquo;. Rubab Beauty Salon & Training Institute Gujranwala provides professional bridal makeup, party makeup, advanced skin care, hair styling, and certified beauty training courses with expert care and modern techniques.
             </p>
 
             <div className="flex items-center gap-4">
@@ -104,8 +104,8 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
               <li className="flex gap-3 items-start">
                 <MapPin className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                 <span>
-                  Plot 23, Main Boulevard, Phase 7,<br />
-                  Bahria Town, Rawalpindi, Pakistan 46000
+                  Plot 142-B, Main Boulevard, Satellite Town,<br />
+                  Gujranwala, Pakistan 52250
                 </span>
               </li>
               <li className="flex gap-3 items-center">
@@ -116,8 +116,8 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
               </li>
               <li className="flex gap-3 items-center">
                 <Mail className="w-4 h-4 text-gold flex-shrink-0" />
-                <a href="mailto:concierge@jaynaansalon.com" className="hover:text-gold transition-colors">
-                  concierge@jaynaansalon.com
+                <a href="mailto:concierge@rubabsalon.com" className="hover:text-gold transition-colors">
+                  concierge@rubabsalon.com
                 </a>
               </li>
             </ul>
@@ -128,7 +128,7 @@ export default function Footer({ setActiveView, scrollToSection }: FooterProps) 
         {/* Footer bottom */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] font-mono uppercase tracking-widest text-zinc-500">
           <p>
-            © {new Date().getFullYear()} JAYNAAN BEAUTY SALON RAWALPINDI. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} RUBAB BEAUTY SALON & TRAINING INSTITUTE GUJRANWALA. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gold transition-colors">Safety Standard</a>

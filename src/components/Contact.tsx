@@ -70,7 +70,7 @@ export default function Contact() {
   };
 
   const handleDirections = () => {
-    window.open("https://maps.google.com/?q=Jaynaan+Beauty+Salon+Rawalpindi+Pakistan", "_blank");
+    window.open("https://maps.google.com/?q=Rubab+Beauty+Salon+Satellite+Town+Gujranwala+Pakistan", "_blank");
   };
 
   return (
@@ -128,7 +128,7 @@ export default function Contact() {
                     Premium Grooming Lounge
                   </span>
                   <h3 className="text-3xl font-sans font-light tracking-wide text-white uppercase">
-                    JAYNAAN BEAUTY SALON <span className="text-gold font-serif italic text-2xl lowercase font-normal">rawalpindi</span>
+                    RUBAB BEAUTY SALON & TRAINING INSTITUTE <span className="text-gold font-serif italic text-2xl lowercase font-normal">gujranwala</span>
                   </h3>
                 </div>
 
@@ -144,8 +144,8 @@ export default function Contact() {
                         Luxury Address
                       </span>
                       <p className="text-sm font-light text-zinc-200 leading-relaxed">
-                        Plot 23, Main Boulevard, Phase 7,<br />
-                        Bahria Town, Rawalpindi, 46000, Pakistan
+                        Plot 142-B, Main Boulevard, Satellite Town,<br />
+                        Gujranwala, 52250, Pakistan
                       </p>
                     </div>
                   </div>
@@ -192,8 +192,8 @@ export default function Contact() {
                       <span className="block text-[10px] font-mono tracking-widest uppercase text-zinc-500 mb-1">
                         Concierge Mail
                       </span>
-                      <a href="mailto:concierge@jaynaansalon.com" className="text-sm font-light text-zinc-200 hover:text-gold transition-all">
-                        concierge@jaynaansalon.com
+                      <a href="mailto:concierge@rubabsalon.com" className="text-sm font-light text-zinc-200 hover:text-gold transition-all">
+                        concierge@rubabsalon.com
                       </a>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ export default function Contact() {
 
               {/* Decorative Subtle Background Stamp */}
               <div className="absolute right-0 bottom-0 translate-x-6 translate-y-6 text-zinc-900/10 pointer-events-none select-none font-serif text-9xl italic">
-                J
+                R
               </div>
             </div>
 
@@ -217,7 +217,7 @@ export default function Contact() {
               </a>
               <button
                 onClick={() => {
-                  const text = encodeURIComponent("Hello Jaynaan Beauty Salon, I'd like to book a luxury session.");
+                  const text = encodeURIComponent("Hello Rubab Beauty Salon, I'd like to book an appointment.");
                   window.open(`https://wa.me/923000000000?text=${text}`, "_blank");
                 }}
                 className="flex-1 justify-center bg-emerald-950/20 hover:bg-emerald-950/50 border border-emerald-500/30 text-emerald-300 font-sans text-xs font-semibold tracking-widest py-4.5 px-6 rounded-xl uppercase flex items-center gap-2.5 transition-all active:scale-95 shadow-lg"
@@ -241,7 +241,7 @@ export default function Contact() {
                       href={platform.link}
                       whileHover={{ scale: 1.15, y: -4 }}
                       className={`w-11 h-11 rounded-xl bg-zinc-900/90 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-gold transition-all shadow-lg ${platform.color} duration-300 hover:border-gold/40 hover:shadow-[0_0_20px_rgba(212,175,55,0.2)]`}
-                      aria-label={`Follow Jaynaan Beauty Salon on ${platform.name}`}
+                      aria-label={`Follow Rubab Beauty Salon on ${platform.name}`}
                     >
                       <Icon className="w-4.5 h-4.5" />
                     </motion.a>
@@ -401,15 +401,15 @@ export default function Contact() {
                       <span className="text-[7px] font-mono text-zinc-500 uppercase tracking-tight text-center">Block D</span>
                     </div>
 
-                    {/* Volumetric Jaynaan Building (Where Jaynaan Beauty Salon is located) */}
+                    {/* Volumetric Rubab Building (Where Rubab Beauty Salon is located) */}
                     <div className="absolute w-24 h-20 bg-gradient-to-b from-zinc-900 to-black border border-gold/30 rounded-xl shadow-[0_15px_30px_rgba(212,175,55,0.12)] flex flex-col justify-between p-2.5 z-10">
                       <div className="flex items-center justify-between">
                         <span className="w-1.5 h-1.5 rounded-full bg-gold animate-ping" />
                         <span className="text-[7px] font-mono text-gold/90 uppercase tracking-widest font-bold">Lvl 1</span>
                       </div>
                       <div className="text-center">
-                        <span className="block text-[8px] font-sans font-black text-white uppercase tracking-wider">Bahria</span>
-                        <span className="block text-[8px] font-sans font-black text-gold uppercase tracking-wider">Phase 7</span>
+                        <span className="block text-[8px] font-sans font-black text-white uppercase tracking-wider">Satellite</span>
+                        <span className="block text-[8px] font-sans font-black text-gold uppercase tracking-wider">Town</span>
                       </div>
                     </div>
                   </div>
@@ -457,7 +457,7 @@ export default function Contact() {
                     >
                       <Sparkles className="w-3.5 h-3.5 text-gold animate-pulse" />
                       <span className="font-sans text-[10px] font-extrabold text-white uppercase tracking-widest font-mono">
-                        Jaynaan Salon
+                        Rubab Salon
                       </span>
                     </motion.div>
                   </div>

@@ -67,10 +67,10 @@ export default function Navbar({ activeView, setActiveView, scrollToSection }: N
             </div>
             <div>
               <span className="font-serif text-xl font-bold tracking-[0.2em] text-gold group-hover:brightness-110 transition-colors uppercase">
-                Jaynaan
+                Rubab
               </span>
               <span className="block text-[8px] tracking-[0.4em] text-white/60 font-mono uppercase">
-                Rawalpindi
+                Gujranwala
               </span>
             </div>
           </div>

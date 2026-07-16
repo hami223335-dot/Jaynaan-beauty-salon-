@@ -104,7 +104,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
   const handleWhatsAppClick = () => {
     const text = encodeURIComponent(
-      "Hello Jaynaan Beauty Salon, I would like to book a luxury service appointment at your Rawalpindi branch."
+      "Hello Rubab Beauty Salon & Training Institute Gujranwala, I would like to book an appointment at your Gujranwala branch."
     );
     window.open(`https://wa.me/923000000000?text=${text}`, "_blank");
   };
@@ -149,7 +149,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         >
           <Sparkles className="w-3.5 h-3.5 text-gold animate-pulse" />
           <span className="font-mono text-[9px] sm:text-[10px] tracking-[0.3em] uppercase text-gold">
-            Bahria Town Phase 7, Rawalpindi
+            Satellite Town, Gujranwala
           </span>
         </motion.div>
 
@@ -161,7 +161,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           className="mb-2"
         >
           <h2 className="text-sm sm:text-lg font-mono tracking-[0.5em] text-gold/80 uppercase">
-            JAYNAAN BEAUTY SALON
+            RUBAB BEAUTY SALON & TRAINING INSTITUTE
           </h2>
         </motion.div>
 
@@ -185,7 +185,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           transition={{ duration: 1, delay: 0.6 }}
           className="max-w-xl text-xs sm:text-base md:text-lg text-zinc-300 font-sans tracking-wide mb-10 leading-relaxed font-light"
         >
-          Enhance Your Beauty With Premium Salon Experience in Rawalpindi. Where global techniques match customized service design.
+          Enhance Your Beauty With Premium Salon Experience in Gujranwala. Where global techniques match customized service design.
         </motion.p>
 
         {/* Action CTAs */}

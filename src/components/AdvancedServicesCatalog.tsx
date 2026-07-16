@@ -58,7 +58,7 @@ export default function AdvancedServicesCatalog({ onBackToHome, scrollToSection 
         {/* Dynamic Page Header */}
         <div className="max-w-3xl mb-16">
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-gold font-semibold block mb-3 animate-pulse">
-            Jaynaan Salon Couture Catalog
+            Rubab Salon & Academy Catalog
           </span>
           <h1 className="text-4xl sm:text-6xl font-sans font-light tracking-tight text-white mb-6 leading-tight">
             The Advanced <br />

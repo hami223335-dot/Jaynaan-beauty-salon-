@@ -432,7 +432,7 @@ _Please confirm my luxury VIP booking slot._`;
                     Your luxury experience awaits
                   </h3>
                   <p className="text-xs text-zinc-400 leading-relaxed font-light">
-                    An confirmation code has been drafted. Please present this reference code at our Rawalpindi Branch reception desk.
+                    A confirmation code has been drafted. Please present this reference code at our Gujranwala Academy & Salon reception desk.
                   </p>
                 </div>
 
